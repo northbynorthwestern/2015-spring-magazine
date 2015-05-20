@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+}
+
+.masthead {
+	background-color: #501f84;
+}
+
+.nbn-logo {
+	height: 2em;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 800;
+	margin: 1em 0 0.2em 0;
+	font-family: "Proxima Nova";
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 500;
+	line-height: 1.25em;
+	font-family: "Gill Sans MT";
+}
+
+h3 {
+	font-size: 1.25em;
+	margin: 15px 0 50px 0;
+	font-weight: 200px;
+	font-family: "Gill Sans MT";
+}
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#slides {
+	display:none;
+}
+
+.subhead {
+	background-color: #0099CC;
+	font-family: "Gill Sans MT";
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0.3em 0 0.3em 1em;
+	margin-top: 2em;
+	color: white;
+	width: 170px;
+}
+
+.item {
+	padding: 2em;
+	font-family: "Georgia";
+	font-size: 1.3em;
+	line-height: 1.8em;
+	min-height: 150px;
+	border: 6px solid #0099CC;
+}
+
+.group {
+	border-bottom: none;
+}
+
+.source {
+	font-style: italic;
+	font-size: 0.85em;
+	padding-bottom: 1em;
+	
+}
+
+.caption {
+	font-family: "Proxima-Nova", "Helvetica", sans-serif;
+  	color: #bbb;
+  	font-size: .8em;
+  	font-weight: 300;
+  	text-align: right;
+  	margin-right: 15px;
+  	top: 5px;
+}
+
+footer {
+	background-color: #501f84;
+ 	margin-top: 100px;
+  	padding: .5em 0 .5em 0;
+  	width: 100%;
+}
+
+footer p {
+	font-family: "Proxima-Nova", "Helvetica", sans-serif;
+	color: #fff;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 auto 0 auto;
+	width: 70%;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nbn-footer {
+	margin-top: 20px;
+}
+
+.container {
+	max-width: 68em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0 1.25em;
+}
+
+.content-block {
+	margin: 0.25em 0 0.25em 0;
+	padding: 0 1.25em;
+}
+
+.credit {
+	padding: 0.5em 0 0.5em 0;
+}
