@@ -36,7 +36,7 @@ h3 {
 }
 
 #container {
-	width: 60%;
+	width: 55%;
 	margin: 0 auto;
 }
 
@@ -52,13 +52,13 @@ h3 {
 	padding: 0.3em 0 0.3em 1em;
 	margin-top: 2em;
 	color: white;
-	width: 170px;
+	width: 165px;
 }
 
 .item {
 	padding: 2em;
 	font-family: "Georgia";
-	font-size: 1.3em;
+	font-size: 1em;
 	line-height: 1.8em;
 	min-height: 150px;
 	border: 6px solid #0099CC;
@@ -72,7 +72,6 @@ h3 {
 	font-style: italic;
 	font-size: 0.85em;
 	padding-bottom: 1em;
-	
 }
 
 .caption {
@@ -80,8 +79,8 @@ h3 {
   	color: #bbb;
   	font-size: .8em;
   	font-weight: 300;
-  	text-align: right;
-  	margin-right: 15px;
+  	text-align: center;
+  	margin: 15px 15px 25px 0;
   	top: 5px;
 }
 
@@ -98,7 +97,7 @@ footer p {
 	font-size: .875em;
 	line-height: 1.5em;
 	margin: 0 auto 0 auto;
-	width: 70%;
+	width: 63%;
 }
 
 footer a{
@@ -125,3 +124,59 @@ footer a{
 .credit {
 	padding: 0.5em 0 0.5em 0;
 }
+
+@media screen and (max-width: 725px) {
+	h2 {
+		font-size: 1.5em;
+		width: 85%;
+		margin: 0 auto 0 auto;
+	}
+
+	#container {
+		width: 80%;
+	}
+	
+	.subhead {
+		font-size: 0.8em;
+	}
+
+	footer p {
+		width: 82%;
+	}
+
+	.caption{
+		font-size: 0.65em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		width: 80%;
+		margin: 0 auto 0 auto;
+		font-size: 1em;
+	}
+
+	h3 {
+		font-size: 0.9em;
+	}
+
+	.subhead {
+		width: 135px;
+	}
+
+	.item {
+		min-height: 120px;
+	}
+
+	.caption{
+		font-size: 0.65em;
+	}
+}
+
+
+
+
