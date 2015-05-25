@@ -160,6 +160,7 @@ h3 {
 	background-color: #0cd7d4;
 	margin: 0 -35% 1.5em -35%;
     padding: 15px;
+    text-align: center;
 }
 
 .word {
@@ -188,6 +189,10 @@ h3 {
 	margin: 0;
 }
 
+.photo {
+	margin: 4em 0 4em 0;
+}
+
 .photo img{
 	width: 100%;
 	display: block;
@@ -198,7 +203,7 @@ h3 {
 	font-size: 1.25em;
 	font-weight: 700;
 	color: #0cd7d4;
-	margin: 1.5em -15% 2em -15%;
+	margin: 1.5em -15% 0 -15%;
 	text-align: center;
 
 }
@@ -245,3 +250,68 @@ footer a:hover{
 	margin: 0.25em 0 0.25em 0;
 	padding: 0 1.25em;
 }
+
+
+@media screen and (max-width: 1190px) {
+	.piece {
+		width: 49.2%;
+	}
+
+	.pull-quote p{
+		font-size: 1.8em;
+		margin: 0 -30% 1.5em -30%;
+    	padding: 10px;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	#container {
+		width: 65%;
+	}
+
+	.pull-quote p {
+		margin: 0 -15% 0 -15%;
+		font-size: 1.3em;
+	}
+
+	.definition {
+		width: 35%;
+		border: 3px solid #0cd7d4;
+		margin: 0 -15% 0 2em;
+	}
+
+	.photo p {
+		font-size: 1em;
+	}
+
+	footer p {
+		width: 75%;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	#container {
+		width: 80%;
+	}
+
+	.definition {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+
+	footer p {
+		text-align: center;
+	}
+
+}
+
