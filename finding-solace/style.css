@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+}
+
+/*header*/
+
+.masthead {
+	background-color: #501f84;
+}
+
+.nbn-logo {
+	height: 2em;
+}
+
+#poster {
+	display: inline-block;
+	margin: 0;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+   	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.piece {
+	width: 33.11112%;	
+}
+
+/*story*/
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 700;
+/*	margin: 1em 0 0.2em 0;*/
+	font-family: "Playfair Display";
+}
+
+h2 {
+	margin: 2em auto 1em auto;
+	font-family: "Playfair Display";
+	font-size: 1.75em;
+	font-weight: 400;
+	line-height: 1.25em;
+	width: 70%;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin: 15px 0 50px 0;
+	font-weight: 700;
+	font-family: "Playfair Display";
+}
+
+#container {
+	width: 50%;
+	margin: 3em auto .75em auto
+}
+
+.bold {
+	font-weight: bold;
+	font-family: "Playfair Display";
+	font-size: 1.5em;
+	color: #0cd7d4;
+}
+
+.story {
+	font-family: "Georgia";
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+.separate {
+	width: 20%;
+	margin: 3em auto 3em auto;
+	display: block;
+}
+
+.reverse {
+	transform: rotate(180deg);
+}
+
+.pull-quote p{
+	font-weight: bold;
+	font-size: 2.2em;
+	font-family: "Playfair Display";
+	color: white;
+	background-color: #0cd7d4;
+	margin: 0 -35% 1.5em -35%;
+    padding: 15px;
+}
+
+/*footer*/
+
+footer {
+	background-color: #501f84;
+ 	margin-top: 100px;
+  	padding: .5em 0 .5em 0;
+  	width: 100%;
+}
+
+footer p {
+	font-family: "Proxima-Nova", "Helvetica", sans-serif;
+	color: #fff;
+	font-size: .875em;
+	line-height: 1.5em;
+	margin: 0 auto 0 auto;
+	width: 60%;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+.nbn-footer {
+	margin-top: 20px;
+}
+
+.container {
+	max-width: 68em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 0 1.25em;
+}
+
+.content-block {
+	margin: 0.25em 0 0.25em 0;
+	padding: 0 1.25em;
+}
