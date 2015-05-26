@@ -35,6 +35,11 @@ h3 {
 	font-family: "Gill Sans MT";
 }
 
+hr {
+	border: 1px solid #0099CC;
+	width: 40%
+}
+
 #container {
 	width: 55%;
 	margin: 0 auto;
