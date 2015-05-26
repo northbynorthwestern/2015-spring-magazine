@@ -1,8 +1,7 @@
 $(document).ready(function(){
 
-	$(".word").on("click", function(){
-		$(".definition").toggle(this);
-	})
-
+	$('.word').on('click', function(){
+    $(this).parent().prev('.definition').toggle(this);
+	});
 
 });
